@@ -1,2 +1,2 @@
 # learn-cpp
-Repository untuk belajar git dan c++
+Repository ini bertujuan untuk menyimpan kode pembelajaran c++
