@@ -2,16 +2,17 @@
 #include<string>
 
 class account {
-	public :
+	public : // access specifier
+
 		//member function setName menyimpan string
 		//ke objek yang ada di accountTest
 		void setName(std::string accountName) {
 			name = accountName;
 		}
-	// dapatkan nama account dari sebuah objek
-	std::string getName() const {
-		return name;
-	}
+		// dapatkan nama account dari sebuah objek
+		std::string getName() const {
+			return name;
+		}
 
 	private : 
 		std::string name;
